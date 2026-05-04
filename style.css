@@ -18,7 +18,7 @@ body {
 
 .main-card {
     display: grid;
-    grid-template-columns: 310px 500px 300px;
+    grid-template-columns: 310px 600px 300px; y
     background: #000000eb;
     gap: 16px;
     padding: 10px;
@@ -69,10 +69,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 9px;
     background: #4040408b;
     border-radius: 12px;
-    padding: 6px;
+    padding: 10px;
     width: 250px;
     height: auto;
     font-size: 24px;
@@ -84,12 +84,12 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     cursor: pointer;
 }
 
 .social-link:hover {
-  color: #000000;
+  color: #ffffff;
   transition: color 0.2s;
 }
 
@@ -124,6 +124,14 @@ body {
 .blog-terminal {
 
     font-size: 30px !important;
+
+}
+
+.boykisser img {
+
+    width:  900px;
+    height: 180px;
+    object-fit: contain;
 
 }
 

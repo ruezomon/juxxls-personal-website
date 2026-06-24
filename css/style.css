@@ -162,7 +162,7 @@ iframe {
 
 #discord-banner {
     height: 80px;
-    background-image: url("banner.gif");
+    background-image: url("../assets/banner.gif");
     background-size: cover;
     background-position: center;
 }
